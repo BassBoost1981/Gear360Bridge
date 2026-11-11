@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gear360Bridge</string>
+
+    <!-- Navigation -->
+    <string name="nav_capture">Fotografieren</string>
+    <string name="nav_overview">Übersicht</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <!-- Anleitung zum Verbinden -->
+    <string name="guide_title">Kamera verbinden</string>
+    <string name="guide_step1">Kamera einschalten.</string>
+    <string name="guide_step2">Menü-Taste gedrückt halten, dann mit der Menü-Taste bis „Google Street View“ blättern und mit der Auslöser-Taste bestätigen. Im Display erscheint ein G.</string>
+    <string name="guide_step3">Im Display der Kamera steht das WLAN-Passwort.</string>
+    <string name="guide_step4">Am Handy mit dem WLAN „Gear 360 …“ verbinden. Die Meldung „kein Internet“ ist normal.</string>
+    <string name="guide_open_wifi">WLAN-Einstellungen öffnen</string>
+    <string name="guide_waiting">Die App sucht die Kamera …</string>
+
+    <!-- Fotografieren -->
+    <string name="status_connected">Verbunden · Akku %1$d %%</string>
+    <string name="status_connected_no_battery">Verbunden</string>
+    <string name="field_site">Baustelle</string>
+    <string name="field_floor">Stockwerk</string>
+    <string name="field_flat">Wohnungsnummer</string>
+    <string name="field_room">Raum</string>
+    <string name="field_room_custom">Eigener Raumname</string>
+    <string name="target_label">Wird abgelegt unter:</string>
+    <string name="site_missing">Bitte zuerst eine Baustelle eintragen.</string>
+    <string name="shutter">Auslösen</string>
+    <string name="countdown_cancel">Abbrechen</string>
+    <string name="phase_camera_working">Die Kamera nimmt auf …</string>
+    <string name="phase_downloading">Das Foto wird übertragen …</string>
+    <string name="saved_as">Gespeichert: %1$s</string>
+    <string name="discard">Verwerfen</string>
+    <string name="next">Weiter</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+
+    <!-- Fehlermeldungen -->
+    <string name="msg_camera_unreachable">Kamera nicht erreichbar. Ist das Handy noch mit dem Kamera-WLAN verbunden und zeigt die Kamera ein G im Display?</string>
+    <string name="msg_camera_refused">Die Kamera hat das Foto nicht aufgenommen. Bitte Speicherkarte und Akku der Kamera prüfen und noch einmal auslösen.</string>
+    <string name="msg_download_interrupted">Das Foto ist aufgenommen, konnte aber nicht übertragen werden. Es liegt noch auf der Kamera und wird automatisch geholt, sobald die Verbindung wieder steht.</string>
+    <string name="msg_timeout">Die Kamera antwortet nicht mehr. Bitte Kamera aus- und wieder einschalten und den Street-View-Modus neu wählen.</string>
+    <string name="msg_storage_failed">Das Foto konnte nicht auf dem Handy gespeichert werden. Bitte prüfen, ob der Speicher voll ist. Das Bild liegt noch auf der Kamera und wird beim nächsten Verbinden erneut geholt.</string>
+    <plurals name="msg_recovered">
+        <item quantity="one">%1$d Foto, dessen Übertragung abgebrochen war, wurde von der Kamera nachgeholt. Es steht in der Übersicht.</item>
+        <item quantity="other">%1$d Fotos, deren Übertragung abgebrochen war, wurden von der Kamera nachgeholt. Sie stehen in der Übersicht.</item>
+    </plurals>
+    <plurals name="msg_lost">
+        <item quantity="one">%1$d Foto konnte auf der Kamera nicht mehr gefunden werden. Bitte den Raum noch einmal aufnehmen.</item>
+        <item quantity="other">%1$d Fotos konnten auf der Kamera nicht mehr gefunden werden. Bitte die Räume noch einmal aufnehmen.</item>
+    </plurals>
+    <string name="msg_move_failed">Nicht alle Bilder konnten verschoben werden. Bitte Übersicht prüfen und noch einmal versuchen.</string>
+    <string name="msg_share_failed">Die Bilder konnten nicht zum Teilen vorbereitet werden.</string>
+
+    <!-- Übersicht -->
+    <string name="overview_empty">Noch keine Fotos. Sie erscheinen hier, sobald das erste Bild aufgenommen ist.</string>
+    <string name="overview_photos">%1$d Fotos</string>
+    <string name="overview_selected">%1$d ausgewählt</string>
+    <string name="action_move">Verschieben</string>
+    <string name="action_rename">Umbenennen</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_share">Teilen</string>
+    <string name="action_back">Zurück</string>
+    <string name="move_title">Verschieben nach</string>
+    <string name="move_hint">Leere Felder bleiben unverändert.</string>
+    <string name="rename_title">Raum umbenennen</string>
+    <string name="delete_confirm">%1$d Bilder endgültig löschen?</string>
+    <string name="share_preparing">Bilder werden zum Teilen vorbereitet …</string>
+    <string name="share_chooser">Baustelle teilen</string>
+    <string name="share_no_internet">Das Handy ist gerade mit dem Kamera-WLAN verbunden und hat dort kein Internet. Zum Verschicken per Mail oder Messenger bitte zuerst das Kamera-WLAN trennen. Speichern in „Eigene Dateien“ geht auch jetzt.</string>
+    <string name="share_anyway">Trotzdem teilen</string>
+    <plurals name="share_skipped">
+        <item quantity="one">%1$d Bild liegt nicht mehr auf dem Handy und fehlt in der ZIP-Datei.</item>
+        <item quantity="other">%1$d Bilder liegen nicht mehr auf dem Handy und fehlen in der ZIP-Datei.</item>
+    </plurals>
+
+    <!-- Einstellungen -->
+    <string name="settings_parts_title">Angaben zu jedem Foto</string>
+    <string name="settings_use_date">Datum</string>
+    <string name="settings_use_floor">Stockwerk</string>
+    <string name="settings_use_flat">Wohnungsnummer</string>
+    <string name="settings_use_room">Raum</string>
+    <string name="settings_order_title">Reihenfolge der Ordner</string>
+    <string name="settings_date_below">Datum unter der Baustelle</string>
+    <string name="settings_date_above">Datum über der Baustelle</string>
+    <string name="settings_delay_title">Wartezeit vor dem Auslösen</string>
+    <string name="settings_delay_seconds">%1$d Sekunden</string>
+    <string name="settings_delay_none">Sofort</string>
+    <string name="settings_note">Änderungen gelten für neue Fotos.</string>
+
+    <!-- Benachrichtigung -->
+    <string name="channel_capture">Aufnahme</string>
+    <string name="notification_capturing">Foto wird aufgenommen</string>
+</resources>
